@@ -4,3 +4,5 @@ script:
 - wget https://github.com/Siddhesh-Ghadi/ripgrep-prebuilt/releases/download/v11.0.1-fork/ripgrep-v11.0.1-fork-s390x.tar.gz
 - tar -xf ripgrep-v11.0.1-fork-s390x.tar.gz
 - ./rg --version
+- ./rg 'CLA' ./README.md
+
